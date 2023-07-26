@@ -38,7 +38,7 @@ const mensajesDeError = {
     },
     numero: {
         valueMissing: "El campo teléfono no puede estar vacío",
-        patternMismatch: "El formato reuerido es XXXXXXXXXX 10 números"
+        patternMismatch: "El formato requerido es XXXXXXXXXX 10 números"
     },
     direccion: {
         valueMissing: "El campo dirección no puede estar vacío",
@@ -46,7 +46,7 @@ const mensajesDeError = {
     },
     ciudad: {
         valueMissing: "El campo ciudad no puede estar vacío",
-        patternMismatch: "La ciudad debe contener entre 4 a 3 caracteres"
+        patternMismatch: "La ciudad debe contener entre 4 a 30 caracteres"
     },
     provincia: {
         valueMissing: "El campo provincia no puede estar vacío",
